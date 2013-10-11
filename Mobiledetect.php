@@ -2,6 +2,24 @@
 
 namespace Radius\BookmacBundle\Mobiledetect;
 
+/* 
+    scanner85@gmail.com
+    sample user this class in controller
+
+        $userDevice = new Mobiledetect();
+
+        $device = 1;            // desktop
+        if ( $userDevice->isMobile() == true ){
+          if ( $userDevice->isTablet() ){
+                $device = 2;    // ipad, galaxy and etc tablets
+            } else {
+                $device = 3;    // iphone, HTC and etc smartphones  
+            }
+        }
+ 
+ */
+
+
 class Mobiledetect {
 
     // External info.
